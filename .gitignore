@@ -1,16 +1,31 @@
-.DS_*
-*.log
-logs
-**/*.backup.*
-**/*.back.*
-
+# Dependencies
 node_modules
-bower_components
 
-*.sublime*
+# Build output
+dist
+dist-ssr
 
-psd
-thumb
-sketch
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# End of https://mrkandreev.name/snippets/gitignore-generator/#react
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
